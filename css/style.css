@@ -1,0 +1,147 @@
+/* YOUR CUSTOM STYLES */
+
+.subcategory-box {
+    height: 15em;
+    width: 100%;
+    color: #fff !important;
+    pointer-events: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: .2s ease-out;
+    white-space: normal !important;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.page-article{
+    padding: 2em;
+    min-height: 200px;
+}
+.no-margin-padding{
+    margin: 0;
+    padding: 0;
+}
+main:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    top: auto;
+    bottom: auto;
+    justify-content: center;
+}
+footer.page-footer {
+    margin-top:0;
+}
+.card-krs{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-left: solid 1px black;
+    margin-right: 1em;
+    word-wrap: break-word;
+}
+.card-krs .avatar img {
+    height: 100px;
+    width: 100px;
+}
+
+.abstract-background {
+    background: url(./../img/abstract-bck.jpg);
+    color: white;
+    opacity: 0.8;
+}
+
+.social [class*="fa fa-"] {
+    background-color: #333;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    margin: auto 3px;
+    width: 60px;
+    font-size: 30px;
+    text-align: center;
+    transition: .5s;
+}.fa-facebook:hover {
+    background-color: rgb(34, 42, 249);
+}.fa-github:hover {
+    background-color: rgb(171, 171, 171);
+}.fa-linkedin:hover {
+    background-color: rgb(75, 93, 255);
+}.fa-instagram:hover {
+    background-color: rgb(175, 0, 144);
+}
+
+.green {
+    background-color: rgb(127, 164, 14);
+    background: repeating-linear-gradient(
+      45deg,
+      rgb(127, 164, 14),
+      rgb(127, 164, 14) 5px,
+      rgb(147, 173, 68) 5px,
+      rgb(147, 173, 68) 10px
+    );
+}
+
+.purple {
+    background-color: rgb(103, 14, 164);
+    background: repeating-linear-gradient(
+      45deg,
+      rgb(103, 14, 164),
+      rgb(103, 14, 164) 5px,
+      rgb(108, 48, 149) 5px,
+      rgb(108, 48, 149) 10px
+    );
+}
+
+.yellow {
+    background-color: rgb(242, 211, 0);
+    background: repeating-linear-gradient(
+      45deg,
+      rgb(242, 211, 0),
+      rgb(242, 211, 0) 5px,
+      rgb(241, 218, 64) 5px,
+      rgb(241, 218, 64) 10px
+    );
+}
+
+.gray {
+    background-color: rgb(212, 212, 212);
+}
+
+.white-text {
+    color: white;
+}
+
+
+/*Parallax section*/
+#section-1 {
+    z-index: 1;
+    color: #000;
+    height: 100vh;
+}
+#section-1 .row {
+    position: fixed;
+}
+/*Parallax background*/
+#section-1 .parallax-layer-back {
+    background: url("https://mdbootstrap.com/images/proffesions/slides/socialmedia/img%20(2).jpg")no-repeat center center;
+    background-color: blue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Section with dummy content*/
+#section-2 {
+    z-index: 2;
+    position: relative;
+    background: #fff;
+    width: 100%;
+}
