@@ -25,15 +25,17 @@ var formsubmitRef = defaultDatabase.ref('formsubmit/');
 
 //  FORM API
 function writeFormData(name, email, role, description) {
+    var d = new Date();
     var postData = {
         fullname: name.value,
         email: email.value,
         role: role.value,
-        body: description.value
+        body: description.value,
+        date: d.toDateString()
     };
 
     // Get formsubmit/ key
-    var newFormsubmitKey = defaultDatabase.ref().child('formsubmit').push().key;
+    var newFormsubmitKey = defaultDatabase.ref().child('formsubmit/').push().key;
 
     // Write the new formsubmit's data simultaneously in the posts list and the user's post list.
     var updates = {};

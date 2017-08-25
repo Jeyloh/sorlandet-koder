@@ -1,4 +1,4 @@
-/* YOUR CUSTOM STYLES */
+  /* YOUR CUSTOM STYLES */
 
 .subcategory-box {
     height: 15em;
@@ -47,6 +47,30 @@ footer.page-footer {
 .card-krs .avatar img {
     height: 100px;
     width: 100px;
+}
+.fixed-right {
+    position: fixed;
+    right: 0;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 99999;
+}
+.engage-form-btn {
+    height: 10em;
+    width: 3em;
+    background-color: rgb(186, 241, 193);
+    color: white;
+}
+
+.engage-form{
+    height: 100%;
+    width: 23em;
+    color: #fff;
+    background-color: rgb(64, 64, 64);
+}
+.engage-form .md-form input, .engage-form .md-form textarea, .engage-form .md-form label {
+    color: #fff;
 }
 
 .abstract-background {
